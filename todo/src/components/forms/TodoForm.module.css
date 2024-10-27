@@ -1,0 +1,56 @@
+.todoFormContainer {
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background-color: #005447;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.todoFormTitle {
+    font-size: 24px;
+    color: #e0e0e0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.todoFormInput {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todoFormButton, .cancelButton {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.todoFormButton {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.cancelButton {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.todoFormButton:hover {
+    background-color: #0056b3;
+}
+
+.cancelButton:hover {
+    background-color: #c82333;
+}
